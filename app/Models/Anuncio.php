@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Anuncio extends Model
 {
     use HasFactory;
-
     protected $fillable=[
       'id',
       'titulo',
